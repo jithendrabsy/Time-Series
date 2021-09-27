@@ -16,6 +16,6 @@ For example, given the above Employee table, the query should return 200 as the 
 +---------------------+
 */
 
-SELECT MAX(salary) AS SecondHighestSalary
-FROM Employee
-WHERE salary < (SELECT MAX(Salary) FROM Employee)
+select MAX(salary) as SecondHighestSalary
+from Employee
+where salary < (select MAX(Salary) from Employee)
