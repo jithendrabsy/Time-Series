@@ -23,9 +23,12 @@ select sal as salary, comm as commision
 from emp
 
 -- 1.6 referencing aliased column in WHERE clause --- FAILS!
+-- because cannot refer to the aliansed column here because - 
+-- WHERE executed before SELECT statement
 select sal as salary, comm as commision
 from emp
 where salary < 5000
+
 
 -- 1.6.1 correction instead
 select *
