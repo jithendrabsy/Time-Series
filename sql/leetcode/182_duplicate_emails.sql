@@ -7,7 +7,8 @@
 | 2  | c@d.com |
 | 3  | a@b.com |
 +----+---------+
-For example, your query should return the following for the above table:
+For example, your query should return
+ the following for the above table:
 
 +---------+
 | Email   |
