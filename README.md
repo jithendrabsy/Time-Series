@@ -1,3 +1,2 @@
-### Stuff
-
-[needs to be updated]
+# TimeSeries
+My notes, resources, learnings and examples for TimeSeries
